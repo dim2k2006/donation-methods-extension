@@ -1,6 +1,6 @@
 {
-  "id": "retail-coordinates-extension",
-  "name": "retail-coordinates-extension",
+  "id": "donation-methods-extension",
+  "name": "donation-methods-extension",
   "srcdoc": "./build/index.html",
   "fieldTypes": [
     "Object"
