@@ -1,0 +1,24 @@
+html,
+body,
+div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.App__content {
+  margin-bottom: var(--spacing-xl);
+}
+
+.App__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--spacing-m);
+}
+
+.App__field {
+  width: 100%;
+}
