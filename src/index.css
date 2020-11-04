@@ -14,11 +14,20 @@ div {
 }
 
 .App__item {
+  position: relative;
   display: flex;
   align-items: center;
   margin-bottom: var(--spacing-m);
+  padding-right: 50px;
 }
 
 .App__field {
-  width: 100%;
+  width: 48%;
+  margin-right: var(--spacing-m);
+}
+
+.App__remove {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }

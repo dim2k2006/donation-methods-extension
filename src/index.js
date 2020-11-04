@@ -95,7 +95,6 @@ export class App extends React.Component {
                     id={item.id}
                     name={item.id}
                     labelText="Link"
-                    width="medium"
                     value={item.link}
                     onChange={(event) => this.onChange(item.id, 'link', event.target.value)}
                   />
@@ -106,16 +105,13 @@ export class App extends React.Component {
                     id={item.id}
                     name={item.id}
                     labelText="Text"
-                    width="medium"
                     value={item.text}
                     onChange={(event) => this.onChange(item.id, 'text', event.target.value)}
                   />
                 </div>
 
                 <div className="App__remove">
-                  <Button buttonType="negative" icon="Settings" onClick={() => this.onRemoveItem(item.id)}>
-                    Remove donation method
-                  </Button>
+                  <Button buttonType="negative" icon="Close" onClick={() => this.onRemoveItem(item.id)} />
                 </div>
               </div>
             ))
